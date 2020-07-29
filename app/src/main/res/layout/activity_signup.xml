@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="model"
+            type="com.android.tlb.auth.data.viewmodel.SignUpViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:elevation="@dimen/margin_2"
+        android:paddingLeft="@dimen/margin_20"
+        android:paddingRight="@dimen/margin_20">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/profileContainer"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.1"
+                app:layout_constraintBottom_toBottomOf="@id/name"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.android.tlb.widget.RoundedView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:bottomLeftCornerRadius="25dp"
+                    app:bottomRightCornerRadius="25dp"
+                    app:topLeftCornerRadius="25dp"
+                    app:topRightCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="?attr/selectableItemBackground"
+                        android:contentDescription="@null"
+                        android:onClick="@{()->model.onImageSelection()}"
+                        android:src="@drawable/ic_user" />
+
+                </com.android.tlb.widget.RoundedView>
+
+                <ImageView
+                    android:id="@+id/camera"
+                    android:layout_width="@dimen/margin_42"
+                    android:layout_height="@dimen/margin_42"
+                    android:layout_gravity="right|bottom"
+                    android:background="?attr/selectableItemBackground"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_camerae" />
+
+            </FrameLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColorHint="@color/colorAccent"
+                app:boxStrokeColor="@color/cyan"
+                app:hintTextAppearance="@style/TextInputLayout"
+                app:layout_constraintBottom_toTopOf="@id/mobile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profileContainer">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_50"
+                    android:hint="User Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:text="@={model.firstname}"
+                    android:textColorHint="@color/hint"
+                    android:textSize="@dimen/margin_15" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mobile"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColorHint="@color/colorAccent"
+                app:boxStrokeColor="@color/cyan"
+                app:hintTextAppearance="@style/TextInputLayout"
+                app:layout_constraintBottom_toTopOf="@id/email"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_50"
+                    android:ems="10"
+                    android:hint="Mobile"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:text="@={model.mobileno}"
+                    android:textColorHint="@color/hint"
+                    android:textSize="@dimen/margin_15" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColorHint="@color/colorAccent"
+                app:boxStrokeColor="@color/cyan"
+                app:hintTextAppearance="@style/TextInputLayout"
+                app:layout_constraintBottom_toTopOf="@id/password"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mobile">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_50"
+                    android:hint="Email Id"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:onTextChanged="@{model::onEmailTextChanged}"
+                    android:text="@={model.emailid}"
+                    android:textColorHint="@color/hint"
+                    android:textSize="@dimen/margin_15" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColorHint="@color/colorAccent"
+                app:boxStrokeColor="@color/cyan"
+                app:hintTextAppearance="@style/TextInputLayout"
+                app:layout_constraintBottom_toTopOf="@id/age"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_50"
+                    android:hint="Password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:onTextChanged="@{model::onPasswordTextChanged}"
+                    android:text="@={model.password}"
+                    android:textColorHint="@color/hint"
+                    android:textSize="@dimen/margin_15" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginTop="@dimen/margin_12"
+                android:background="@drawable/edit_card"
+                android:drawableLeft="@drawable/ic_down_arrow"
+                android:drawablePadding="@dimen/margin_8"
+                android:editable="false"
+                android:hint="Birth date"
+                android:inputType="none"
+                android:letterSpacing="0.1"
+                android:onClick="@{()->model.openDatePicker()}"
+                android:text="@={model.age}"
+                android:textColorHint="@color/hint"
+                android:textSize="@dimen/margin_15"
+                app:layout_constraintTop_toBottomOf="@id/password" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/zip_code"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginTop="@dimen/margin_12"
+                android:background="@drawable/edit_card"
+                android:drawableLeft="@drawable/ic_down_arrow"
+                android:drawablePadding="@dimen/margin_8"
+                android:hint="Zip code"
+                android:inputType="numberDecimal"
+                android:letterSpacing="0.1"
+                android:maxLength="6"
+                android:text="@={model.zip}"
+                android:textColorHint="@color/hint"
+                android:textSize="@dimen/margin_15"
+                app:layout_constraintTop_toBottomOf="@id/age" />
+
+            <LinearLayout
+                android:id="@+id/gender_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_12"
+                android:background="@drawable/edit_card"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/zip_code">
+
+                <TextView
+                    android:id="@+id/tv_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_down_arrow"
+                    android:drawablePadding="12dp"
+                    android:letterSpacing="0.1"
+                    android:text="Gender"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_15" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RadioGroup
+                        android:id="@+id/gender_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_50"
+                        android:checkedButton="@+id/male"
+                        android:gravity="center_vertical"
+                        android:onCheckedChanged="@{model::onCheckedChanged}"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp">
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:letterSpacing="0.1"
+                            android:text="Male"
+                            android:textSize="@dimen/margin_15"
+                            app:buttonTint="@color/hint" />
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:letterSpacing="0.1"
+                            android:text="Female"
+                            android:textSize="@dimen/margin_15"
+                            app:buttonTint="@color/hint" />
+
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/other"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:letterSpacing="0.1"
+                            android:text="Other"
+                            android:textSize="@dimen/margin_15"
+                            app:buttonTint="@color/hint" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvGoOnline"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginTop="@dimen/margin_12"
+                android:layout_marginBottom="@dimen/margin_8"
+                android:background="@drawable/button_round_corner_red"
+                android:gravity="center"
+                android:letterSpacing="0.1"
+                android:onClick="@{()->model.enterSignUp()}"
+                android:text="Sign Up"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gender_container" />
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleLargeInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_8"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorAccent"
+                android:indeterminateTintMode="src_atop"
+                android:visibility="@{model.progress}"
+                app:layout_constraintBottom_toBottomOf="@+id/tvGoOnline"
+                app:layout_constraintLeft_toLeftOf="@+id/tvGoOnline"
+                app:layout_constraintRight_toRightOf="@+id/tvGoOnline"
+                app:layout_constraintTop_toTopOf="@+id/tvGoOnline" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

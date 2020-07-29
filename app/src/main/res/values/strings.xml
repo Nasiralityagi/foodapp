@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MVVM</string>
+    <string name="facebook_app_id">1017139844989490</string>
+    <string name="fb_login_protocol_scheme">fb1017139844989490</string>
+    <string name="string_sign_in_with">New User?</string>
+    <string name="string_sign_up">SignUp</string>
+    <string name="login_successful">Successfully login.</string>
+    <string name="login_failed">Login failed!</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
