@@ -28,9 +28,8 @@ import com.android.tlb.auth.data.listener.AuthListener
 import com.android.tlb.auth.data.viewmodel.SignUpViewModel
 import com.android.tlb.databinding.ActivitySignupBinding
 import com.android.tlb.factory.ViewModelFactory
-import com.android.tlb.utils.Constant
+import com.android.tlb.utils.Constants
 import com.android.tlb.utils.goActivity
-import com.android.tlb.utils.leftDrawable
 import com.android.tlb.utils.toast
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
@@ -264,11 +263,11 @@ class SignUpActivity : AppCompatActivity(),
      */
     private fun getOutputMediaFile(type: Int): File? {
         // External sdcard location
-        val mediaStorageDir = File(this.getExternalFilesDir(Environment.DIRECTORY_PICTURES), Constant.IMAGE_DIRECTORY)
+        val mediaStorageDir = File(this.getExternalFilesDir(Environment.DIRECTORY_PICTURES), Constants.IMAGE_DIRECTORY)
         // Create the storage directory if it does not exist
         if (!mediaStorageDir.exists()) {
             if (!mediaStorageDir.mkdirs()) {
-                Log.d(TAG, "Oops! Failed create ${Constant.IMAGE_DIRECTORY} directory")
+                Log.d(TAG, "Oops! Failed create ${Constants.IMAGE_DIRECTORY} directory")
                 return null
             }
         }
@@ -292,7 +291,7 @@ class SignUpActivity : AppCompatActivity(),
         val timeStamp = SimpleDateFormat("yyyyMMdd_HHmmSS").format(Date())
         val imageFileName = "IMAGE_$timeStamp"
         // Here we specify the environment location and the exact path where we want to save the so-created file
-        val storageDirectory = File(this.getExternalFilesDir(Environment.DIRECTORY_PICTURES), Constant.IMAGE_DIRECTORY)
+        val storageDirectory = File(this.getExternalFilesDir(Environment.DIRECTORY_PICTURES), Constants.IMAGE_DIRECTORY)
         Logger.getAnonymousLogger().info("Storage directory set")
 
         // Then we create the storage directory if does not exists

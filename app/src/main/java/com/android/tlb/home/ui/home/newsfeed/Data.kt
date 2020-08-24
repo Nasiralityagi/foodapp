@@ -17,5 +17,7 @@ data class Data(
     val user_profile: String,
     val video_path: String,
     val what: String,
-    val who: String
+    val who: String,
+    val username: String,
+    val post_file: String
 )

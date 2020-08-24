@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="viewModel"
-            type="com.android.tlb.home.ui.home.TrashTalkHomeViewModel" />
+            type="com.android.tlb.home.ui.home.HomeViewModel" />
     </data>
 
     <FrameLayout
@@ -18,68 +19,54 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
             android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/searchView"
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:layout_margin="8dp"
+                android:layout_height="@dimen/margin_46"
+                android:layout_margin="@dimen/margin_4"
                 android:background="@drawable/search_bg"
                 android:gravity="center"
-                android:padding="4dp"
+                android:padding="@dimen/margin_4"
                 android:visibility="gone">
 
                 <EditText
                     android:id="@+id/etSearch"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
                     android:drawableStart="@drawable/ic_search_black"
                     android:drawablePadding="6dp"
-                    android:padding="4dp"
                     android:hint="Search..."
-                    android:textColor="#191919"
-                    android:background="?attr/selectableItemBackground"
-                    android:layout_weight="1" />
+                    android:padding="@dimen/margin_4"
+                    android:textColor="#191919" />
 
                 <ImageView
                     android:id="@+id/cross"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:padding="4dp"
+                    android:layout_width="@dimen/margin_25"
+                    android:layout_height="@dimen/margin_25"
+                    android:padding="@dimen/margin_4"
                     android:src="@drawable/ic_cross" />
             </LinearLayout>
+
 
             <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
                 android:id="@+id/swipeRefresh"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="12dp">
+                android:layout_height="match_parent">
 
-                <androidx.core.widget.NestedScrollView
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_home"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:fillViewport="true">
+                    android:layout_below="@id/view_pager"
+                    android:layout_marginTop="12dp"
+                    android:background="#efefef"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <androidx.viewpager2.widget.ViewPager2
-                            android:id="@+id/view_pager"
-                            android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:minHeight="200dp"
-                            tools:listitem="@layout/news_feed_list_item" />
-
-                        <androidx.recyclerview.widget.RecyclerView
-                            android:layout_below="@id/view_pager"
-                            android:id="@+id/recycler_view_home"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            tools:listitem="@layout/home_list_item"
-                            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-                    </RelativeLayout>
-                </androidx.core.widget.NestedScrollView>
             </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
         </LinearLayout>
@@ -89,8 +76,8 @@
             style="?android:attr/progressBarStyleLargeInverse"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginTop="100dp"
             android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="100dp"
             android:indeterminate="true"
             android:indeterminateTintMode="src_atop"
             android:visibility="@{viewModel.progress}" />
@@ -99,14 +86,13 @@
             android:id="@+id/tv_no_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:text="No Result Found!"
-            android:textSize="25sp"
-            android:padding="10dp"
             android:layout_gravity="center"
             android:drawableBottom="@drawable/ic_no_data_found"
-            android:background="@drawable/edit_card_empty"
             android:gravity="center"
+            android:padding="10dp"
+            android:text="No Result Found!"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="25sp"
             android:visibility="@{viewModel.noData}" />
 
     </FrameLayout>

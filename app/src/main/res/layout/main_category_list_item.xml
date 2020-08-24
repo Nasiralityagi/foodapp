@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.android.tlb.home.data.model.ViewList" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/margin_150"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_4"
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_marginEnd="@dimen/margin_4"
+        android:layout_marginBottom="@dimen/margin_4"
+        app:cardBackgroundColor="#efefef"
+        app:cardCornerRadius="@dimen/margin_6"
+        app:cardElevation="0dp">
+
+        <com.android.tlb.widget.RoundedView
+            android:id="@+id/imageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bottomLeftCornerRadius="@dimen/margin_6"
+            app:bottomRightCornerRadius="@dimen/margin_6"
+            app:topLeftCornerRadius="@dimen/margin_6"
+            app:topRightCornerRadius="@dimen/margin_6">
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/margin_175"
+                    android:scaleType="fitXY"
+                    android:img="@{viewModel.imgUrl}" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:text="@{viewModel.catName}"
+                    android:textColor="@android:color/black"
+                    tools:text="TITLE"
+                    android:padding="2dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </com.android.tlb.widget.RoundedView>
+    </androidx.cardview.widget.CardView>
+
+</layout>

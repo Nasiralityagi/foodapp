@@ -1,0 +1,303 @@
+{
+  "status": 1,
+  "message": "Success",
+  "data": [{
+    "viewType": "horizontal",
+    "label": "LIST OUT ALL CATEGORIES",
+    "viewList": [{
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTib7QtTaDi6-mBJe6GwDrviyEajzEXF07PfdejUlEMX8v9AMq&s",
+      "catName": "MEN"
+    }, {
+      "imgUrl": "https://ae01.alicdn.com/kf/HTB19xcfQpXXXXXTapXXq6xXFXXXm/2019-Summer-Style-Blouse-Women-Fashion-White-Chiffon-Elegant-Shirt-Female-Work-Wear-Office-Ladies-OL.jpg",
+      "catName": "WOMEN"
+    }, {
+      "imgUrl": "https://di2ponv0v5otw.cloudfront.net/posts/2018/01/24/5a695cb93b1608621defecf6/m_5a695cc6fcdc31d003468f63.jpg",
+      "catName": "KIDS"
+    }, {
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTib7QtTaDi6-mBJe6GwDrviyEajzEXF07PfdejUlEMX8v9AMq&s",
+      "catName": "TEENAGE"
+    }, {
+      "imgUrl": "https://s.yimg.com/aah/yhst-172647443-1/new-arrival-1.png",
+      "catName": "NEW ARRIVAL"
+    }]
+  }, {
+    "viewType": "pager ",
+    "label": "DEALS OF THE DAY",
+    "viewList": [{
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBWW-1-Lhihg3.webp"
+    }, {
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBWW-5-Ax1ChD.jpg"
+    }, {
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBMW-4_2-Xkm2RJ.jpg"
+    }, {
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBWW-7-IS7VMk.webp"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/d0331b0d-cb91-4af5-a727-bcf5eafa31ab1597152389164-Top---Tess_Desk_Banner.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/90c0a5f4-70a5-4f59-b0ec-8064fd35eabd1597152158372-Activewear_Desk--1-.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/07b6c043-5cb2-4534-a526-1b81084bf8fa1597152077245-men-essentialdk.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/41ea7db8-2821-4148-8ffe-9513b8f589801597150824773-HRX_Desk.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/b4fafff3-9b5e-485a-9b6b-9cee761d3e2c1597152025992-dk--5-.jpg"
+    }]
+  }, {
+    "viewType": "horizontal",
+    "label": "CATEGORIES TO BAG",
+    "viewList": [{
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/8d992d81-49e6-4dec-89a4-49a8af8beb5d1594222967220-Kurtas-_-Kurta-Sets.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/a048cca8-7b5d-417e-9645-ca98f4b6e52c1594222967506-Sarees.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/b0f459a0-9ef0-4392-a9ed-23892a36e79c1594222966859-Dresses.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/a4dedaa4-3710-4061-b7d6-ca8c83ce9d021594222967117-Heels.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/a352f908-57c8-4c66-b052-18137cf15e6c1594222967074-Handbags.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/18eb31db-8dcb-4efa-b92d-61c8ebe0ee811594222834368-Shorts.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/89f1bd9d-3a28-456d-888a-beff717a06f81594222908155-Shirts.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/9ff1f34e-9242-47fd-9566-e7d7a5c240511594222908483-T-shirt.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/720cf6ef-3be4-4825-8211-0125c942e3821594222907960-Jeans.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/2bac5e2d-337b-42c0-88c7-3d4e2dc464141594222908262-Shorts-_-Trousers.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/ae14f627-9fd9-41ce-80a4-f107c316c7eb1594222907625-Casual-shoes.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/8/f0f9b81a-b9d5-4b8b-94d5-ea878fa9b18e1594222834121-Infant-Essential.jpg"
+    }]
+  }, {
+    "viewType": "grid",
+    "label": "EXPLORE TOP BRANDS",
+    "viewList": [{
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/5/21/c8c04af9-f276-4c87-865a-a37f8ee12a0a1590039953155-Levis.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/5/21/49e0529b-f16e-488e-baea-f3fe7f41f4d31590039953100-Hrx.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/5/21/9e51b35a-5eea-4a41-b3c8-144a32c9fa9e1590039953366-roadster.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/5/21/6cbcbaa1-7625-4426-abf2-ecdd86350f681590039952871-anouk.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/5/21/6b31bff2-ad89-48d9-ab34-1df64ee3acd41590039953567-USPA.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/22/c68dc840-343f-4996-8f44-fefbf1d43d7e1592765512400-sass.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/19/2bee4a8e-2ef3-4a2c-908a-14c5b4b71a261592571966051-here-and-now.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/9/90d507a0-4adb-4cb5-a447-6cdf2527ede91594289846087-Women-s-Ethnic-Libas.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/10/afc99da8-0499-4809-b859-2e68041636e41594379018770-Sports-Under-Armour.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/11/e6e0b149-ba12-4903-bdb1-3b05a81b2ce91594477963853-flying-machine.jpg"
+    }]
+  }, {
+    "viewType": "horizontal",
+    "label": "TRENDING IN WESTERN WEAR",
+    "viewList": [{
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/655751e9-66c3-49b5-acfc-a508068e6e581595936000398-Content-westernwear-Trends-Vibrantcolourblocks.jpg"
+    },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/f24d2fa3-026e-43c9-b6d7-9c3e7b7e9e5e1595936000109-Content-weaternwear-Brand-Onlinegamingprodigy.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/1577e305-2563-4e37-914d-4f8121f2c57a1595936000336-Content-westernwear-lifestyle-linenshop.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/e17f1961-adb2-4b7e-8e62-cbc9209458d01595936000223-Content-westernwear-colour-Helloyellow.jpg"
+      },
+      {
+        "imgUrl": "https: //assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/a6d9d467-d37e-4428-b2dd-a9f45756c1fc1595936000278-Content-westernwear-lifestyle-Ecovero.jpg"
+      }
+    ]
+  }, {
+    "viewType": "horizontal",
+    "label": "TRENDING IN INDIAN WEAR",
+    "viewList": [{
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/e4fe9b08-9d0a-4349-868f-6ac5aa7123ed1595935030800-Content-ethnicwear-trend-Bsummerreadyethnicdresses.jpg"
+    },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/c03c592f-37f7-4271-a3a5-e42da4b6d0431595935030731-Content-ethnicwear-lifestyleedits-heritagesarees.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/3e6aeb4b-e138-4952-b820-485337b082d01595935030992-Content-ethnicwear-trends-tunickurtas.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/9d248917-d1b0-4910-8de0-4ed7c2b4af8e1595935030939-Content-ethnicwear-trends-printedkurtaset.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/83d9ca97-4aa3-46ce-bd28-b135d3b94a021595935030673-Content-ethnicwear-essentials-everydaykurtas.jpg"
+      }
+    ]
+  }, {
+    "viewType": "horizontal",
+    "label": "TRENDING IN SPORTS WEAR",
+    "viewList": [{
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/ba09e83b-f1f8-4e7a-b0f1-dcd1e44076691595935799098-Content-sportswear-men-Athleisure.jpg"
+    },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/cf78506d-ecc5-468d-aa97-c778c864181b1595935799035-Content-sportswear-men-Active-from-home.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/ffc6f4f2-9541-47a2-ba12-e3c68c9407461595935799402-Content-sportswear-Women-Under-Armour-daily-wear-Joggers.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/ba7ebb65-b743-4947-b7b0-2f62a3c912cf1595935799269-Content-sportswear-Women-Athleisure.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/0faf749f-5450-4550-8b48-54b2d2e311b51595935799329-Content-sportswear-Women-Running.jpg"
+      }
+    ]
+  }, {
+    "viewType": "horizontal",
+    "label": "TRENDING IN FOOTWEAR",
+    "viewList": [{
+      "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/647e166b-f645-443a-892d-df84ee345e781595935221231-Content-Footwear-men-Neutral-shades.jpg"
+    },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/9654b0f9-42a9-4111-a4b7-27b26c5a22d41595935221284-Content-Footwear-Unisex-Sneakers-for-Dancers_.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/086f9782-9eea-42b2-8d24-f5ae9f771ff91595935221502-Content-Footwear-Women-Open-Toe-Flats.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/fd799c90-85c9-40d3-961b-8395b61fcbb31595935221438-Content-Footwear-Women-Ethnic-heels.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/1b444433-164b-4551-9749-d2915a286ee01595935221365-Content-Footwear-Women-Comfort-Wear.jpg"
+      }
+    ]
+  }, {
+    "viewType": "grid",
+    "label": "TRENDING IN ACCESSORIES",
+    "viewList": [{
+      "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-protective-mask-safety-essential-face-mask-CATEGORY-1595589836.png"
+    },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof--safety-essential--sanitizer-hand-PROTECTIVE-PERSONAL-CARE-1595589837.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-duffle-bag-face-mask-sanitzer-safety-essential-protection-COMBO-KIT-1595589835.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-protection-face-sheild-safety-essential-PROTECTIVE-GEAR-1595589835.png"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/2bcf907c-bc21-44cb-9021-7575a963b0ef1595934830671-Content-Accesories-Unisex-True-wirless-lets-get-free.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/bddd9c73-e4f1-43c0-a073-2ff3c0e376b51595934830554-Content-Accesories-men-Sporty-Watches_.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/777f048d-4372-405a-82d7-410bca1462b81595934830728-Content-Accesories-Unisex-Watch-Gift-Sets_.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/4734880e-2a52-4689-adf7-9450c949a67e1595934830619-Content-Accesories-Unisex-Michael-Kors_.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/8b3c255c-bf70-449e-abbd-6b26b593fea91595934830784-Content-Accesories-Women-Greenbeads-.jpg"
+      }
+    ]
+  }, {
+    "viewType": "grid",
+    "label": "BROWSE TOP WEAR",
+    "viewList": [{
+      "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-casual-wear-online-fasion-FULL--SLEEVES-MEN-1596718674.png"
+    },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-casual-wear-online-fasion-HALF-SLEEVES-MEN-1596718674.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-casual-wear-online-fasion-VEST--MEN-1596718675.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-casual-wear-online-fasion-34-SLEEVE-WOMEN-1596718673.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-casual-wear-online-fasion-BF-WOMEN-1596718673.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-casual-wear-online-fasion-HALF-SLEEVE-WOMEN-1596718675.png"
+      }
+    ]
+  }, {
+    "viewType": "horizontal",
+    "label": "BROWSE BOTTOM WEAR",
+    "viewList": [{
+      "imgUrl": "https://images.bewakoof.com/uploads/grid/app/Men-s-Boxers-1588353808.png"
+    },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/Men-s-Joggers-1588353809.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/Men-s-Pyjamas-1588353810.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/Women-s-Boxers-1588353811.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/womens-joggers-1595223849.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/Women-s-Pyjamas-1588353812.png"
+      }
+    ]
+  }, {
+    "viewType": "grid",
+    "label": "FEATURED COLLECTIONS",
+    "viewList": [{
+      "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-mvp-gaming-collection-banner-1594801544.jpg"
+    },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/BEWAKOOF-NIOSH-N95-MASK-BANNER-1594992240.jpg"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/color-block-men-underslider-1588247162.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-joggers-bottom-wear-casual-louge-wear-banner-1588684445.gif"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-under-299-store-banner-online-shopping-msite-1592470551.jpg"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-joggers-revised-homepage-banner-1593185780.jpg"
+      }
+    ]
+  }, {
+    "viewType": "pager",
+    "label": "BROWSE BY CATEGORIES",
+    "viewList": [{
+      "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h9e/hbf/26576406675486/06082020-D-Unisex-ShopByProduct-Men-TeesShirts.jpg"
+    },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h7c/h7d/26576406872094/06082020-D-Unisex-ShopByProduct-Men-JeansTrousers.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h85/h89/26576407003166/06082020-D-Unisex-ShopByProduct-Men-Footwear.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h97/h83/26576408379422/06082020-D-Unisex-ShopByProduct-Women-KurtasKurtis.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h2a/h02/26576408969246/06082020-D-Unisex-ShopByProduct-Women-TopsTees.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h1a/h06/26576409100318/06082020-D-Unisex-ShopByProduct-Women-FlatsHeels.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/hb0/hcb/26576411066398/06082020-D-Unisex-ShopByProduct-Boys-Tees.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h87/h02/26576411525150/06082020-D-Unisex-ShopByProduct-Girls-FrocksDresses.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h01/h69/26576412049438/06082020-D-Unisex-ShopByProduct-Kids-ToysBabycare.jpg"
+      }
+    ]
+
+  }]
+}

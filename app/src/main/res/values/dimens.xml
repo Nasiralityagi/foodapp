@@ -18,6 +18,13 @@
     <dimen name="home_view_w">200dp</dimen>
     <dimen name="home_view_h">130dp</dimen>
 
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
     <dimen name="margin_0">0.00dp</dimen>
     <dimen name="margin_1">1.00dp</dimen>
     <dimen name="margin_2">2.00dp</dimen>

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.tirade.android.core.trashtalk.home.data.model.home.Data" />
+            type="com.android.tlb.home.ui.home.newsfeed.Data" />
     </data>
 
     <androidx.cardview.widget.CardView
@@ -54,7 +54,7 @@
                     android:id="@+id/postImg"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_user"
+                    android:src="@drawable/ic_profile_black_24dp"
                     android:layout_marginStart="8dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -99,8 +99,7 @@
                         app:bottomLeftCornerRadius="25dp"
                         app:bottomRightCornerRadius="25dp"
                         app:topLeftCornerRadius="25dp"
-                        app:topRightCornerRadius="25dp"
-                        android:onClick="@{()->model.onImageSelection()}">
+                        app:topRightCornerRadius="25dp">
 
                         <ImageView
                             android:id="@+id/avtar"
@@ -109,7 +108,7 @@
                             android:layout_gravity="center"
                             android:background="?attr/selectableItemBackground"
                             android:contentDescription="@null"
-                            android:src="@drawable/ic_user"
+                            android:src="@drawable/ic_profile_black_24dp"
                             android:img="@{viewModel.user_profile}"/>
 
                     </com.android.tlb.widget.RoundedView>

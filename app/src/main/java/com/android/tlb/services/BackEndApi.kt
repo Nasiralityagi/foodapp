@@ -1,8 +1,8 @@
 package com.android.tlb.services
 
 import com.android.tlb.auth.data.model.AuthResponse
+import com.android.tlb.home.ui.home.newsfeed.FeedResponse
 import io.reactivex.Observable
-import kotlinx.coroutines.Deferred
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
 import retrofit2.http.*
@@ -36,8 +36,8 @@ interface BackEndApi {
     ): Observable<AuthResponse>
 
     @GET("incognito/postdata/getdata")
-    fun getTrashTalkHome(): Deferred<TrashHomeResponse>
+    fun fetchHomeDataList(): Observable<FeedResponse>
 
     @GET("incognito/postdata/get_news_feed")
-    fun getTrashTalkNewsFeed(): Deferred<NewsFeedResponse>
+    fun fetchPagerDataList(): Observable<FeedResponse>
 }

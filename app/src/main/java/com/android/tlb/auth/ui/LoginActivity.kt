@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.facebook.*
 import com.facebook.AccessToken
@@ -50,9 +51,7 @@ class LoginActivity : AppCompatActivity(),
     private fun setupBindings(savedInstanceState: Bundle?) {
         if (savedInstanceState == null) {
             binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
-            viewmodel = ViewModelProviders.of(this,
-                ViewModelFactory()
-            ).get(LoginViewModel::class.java)
+            viewmodel = ViewModelProvider(this, ViewModelFactory()).get(LoginViewModel::class.java)
             binding.model = viewmodel
             registerObservables()
         }

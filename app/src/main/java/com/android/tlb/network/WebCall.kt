@@ -15,7 +15,7 @@ class WebCall {
         fun create(): BackEndApi {
             val retrofit = Retrofit.Builder()
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl("https://api.simplifiedcoding.in/course-apis/mvvm/")//base url
+                .baseUrl("https://vridhisoftech.in/tirade/")//base url
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(

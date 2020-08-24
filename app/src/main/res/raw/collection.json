@@ -1,0 +1,90 @@
+{
+  "status": 1,
+  "message": "Success",
+  "data": [{
+    "viewType": "pager ",
+    "label": "COLLECTIONS OFFERS",
+    "viewList": [{
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBWW-1-Lhihg3.webp"
+    }, {
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBWW-5-Ax1ChD.jpg"
+    }, {
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBMW-4_2-Xkm2RJ.jpg"
+    }, {
+      "imgUrl": "https://product.koovs.com/home-SHUFFLE-WEBWW-7-IS7VMk.webp"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/d0331b0d-cb91-4af5-a727-bcf5eafa31ab1597152389164-Top---Tess_Desk_Banner.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/90c0a5f4-70a5-4f59-b0ec-8064fd35eabd1597152158372-Activewear_Desk--1-.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/07b6c043-5cb2-4534-a526-1b81084bf8fa1597152077245-men-essentialdk.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/41ea7db8-2821-4148-8ffe-9513b8f589801597150824773-HRX_Desk.jpg"
+    }, {
+      "imgUrl": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/11/b4fafff3-9b5e-485a-9b6b-9cee761d3e2c1597152025992-dk--5-.jpg"
+    }]
+  },{
+    "viewType": "horizontal",
+    "label": "LATEST COLLECTIONS",
+    "viewList": [{
+      "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-protective-mask-safety-essential-face-mask-CATEGORY-1595589836.png"
+    },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof--safety-essential--sanitizer-hand-PROTECTIVE-PERSONAL-CARE-1595589837.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-duffle-bag-face-mask-sanitzer-safety-essential-protection-COMBO-KIT-1595589835.png"
+      },
+      {
+        "imgUrl": "https://images.bewakoof.com/uploads/grid/app/bewakoof-protection-face-sheild-safety-essential-PROTECTIVE-GEAR-1595589835.png"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/2bcf907c-bc21-44cb-9021-7575a963b0ef1595934830671-Content-Accesories-Unisex-True-wirless-lets-get-free.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/bddd9c73-e4f1-43c0-a073-2ff3c0e376b51595934830554-Content-Accesories-men-Sporty-Watches_.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/777f048d-4372-405a-82d7-410bca1462b81595934830728-Content-Accesories-Unisex-Watch-Gift-Sets_.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/4734880e-2a52-4689-adf7-9450c949a67e1595934830619-Content-Accesories-Unisex-Michael-Kors_.jpg"
+      },
+      {
+        "imgUrl": "https://assets.myntassets.com/w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/8b3c255c-bf70-449e-abbd-6b26b593fea91595934830784-Content-Accesories-Women-Greenbeads-.jpg"
+      }
+    ]
+  }, {
+    "viewType": "grid",
+    "label": "CATEGORIES",
+    "viewList": [{
+      "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h9e/hbf/26576406675486/06082020-D-Unisex-ShopByProduct-Men-TeesShirts.jpg"
+    },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h7c/h7d/26576406872094/06082020-D-Unisex-ShopByProduct-Men-JeansTrousers.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h85/h89/26576407003166/06082020-D-Unisex-ShopByProduct-Men-Footwear.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h97/h83/26576408379422/06082020-D-Unisex-ShopByProduct-Women-KurtasKurtis.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h2a/h02/26576408969246/06082020-D-Unisex-ShopByProduct-Women-TopsTees.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h1a/h06/26576409100318/06082020-D-Unisex-ShopByProduct-Women-FlatsHeels.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/hb0/hcb/26576411066398/06082020-D-Unisex-ShopByProduct-Boys-Tees.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h87/h02/26576411525150/06082020-D-Unisex-ShopByProduct-Girls-FrocksDresses.jpg"
+      },
+      {
+        "imgUrl": "https://assets.ajio.com/medias/sys_master/images/images/h01/h69/26576412049438/06082020-D-Unisex-ShopByProduct-Kids-ToysBabycare.jpg"
+      }
+    ]
+
+  }]
+}
