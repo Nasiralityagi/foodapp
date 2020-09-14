@@ -80,7 +80,7 @@ class Utils {
         }
 
         fun getHomeList(context: Context): List<Data> {
-            val jsonString: String = getJSONStringFromRaw(context, R.raw.shopping)
+            val jsonString: String = getJSONStringFromRaw(context, R.raw.home)
             val listType: Type = object : TypeToken<Response?>() {}.type
             val apiResponseMessage: Response = Gson().fromJson(jsonString, listType)
             return apiResponseMessage.data

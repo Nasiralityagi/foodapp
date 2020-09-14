@@ -12,10 +12,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.android.tlb.databinding.MainCategoryListViewBinding
 import com.android.tlb.databinding.ProductListViewBinding
 import com.android.tlb.databinding.TrendingPagerListViewBinding
-import com.android.tlb.home.data.FragmentHomeCommand
-import com.android.tlb.home.data.MainCategoriesAdapter
-import com.android.tlb.home.data.ProductListAdapter
-import com.android.tlb.home.data.TrendingListPagerAdapter
+import com.android.tlb.home.data.*
 import com.android.tlb.home.data.model.Data
 import com.android.tlb.utils.toast
 import java.util.*
@@ -31,6 +28,8 @@ class HomeListAdapter(
         const val VIEW_TYPE_HOR = 0
         const val VIEW_TYPE_PAGER = 1
         const val VIEW_TYPE_GRID = 2
+        const val VIEW_TOP_VIEW = 3
+        const val VIEW_TYPE_VERTICAL = 4
     }
 
     private val mCategoryList = ArrayList<Data>()
@@ -48,8 +47,14 @@ class HomeListAdapter(
 
     override fun getItemViewType(position: Int): Int {
         return when (position) {
+            0 -> {
+                VIEW_TOP_VIEW
+            }
             1 -> {
                 VIEW_TYPE_PAGER
+            }
+            2 -> {
+                VIEW_TYPE_VERTICAL
             }
             3 -> {
                 VIEW_TYPE_GRID
@@ -74,12 +79,20 @@ class HomeListAdapter(
 
     override fun onBindViewHolder(vh: RecyclerView.ViewHolder, position: Int) {
         when (getItemViewType(position)) {
+            VIEW_TOP_VIEW -> {
+                val holder = vh as ViewHolderTopHor
+                holder.bind(mCategoryList[position])
+            }
             VIEW_TYPE_HOR -> {
                 val holder = vh as ViewHolderHor
                 holder.bind(mCategoryList[position])
             }
             VIEW_TYPE_PAGER -> {
                 val holder = vh as ViewHolderPager
+                holder.bind(mCategoryList[position])
+            }
+            VIEW_TYPE_VERTICAL -> {
+                val holder = vh as ViewHolderVertical
                 holder.bind(mCategoryList[position])
             }
             VIEW_TYPE_GRID -> {
@@ -92,6 +105,11 @@ class HomeListAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
+        if (viewType == VIEW_TOP_VIEW) {
+            return ViewHolderTopHor(
+                MainCategoryListViewBinding.inflate(layoutInflater, parent, false)
+            )
+        }
         if (viewType == VIEW_TYPE_HOR) {
             return ViewHolderHor(
                 MainCategoryListViewBinding.inflate(layoutInflater, parent, false)
@@ -102,9 +120,40 @@ class HomeListAdapter(
                 TrendingPagerListViewBinding.inflate(layoutInflater, parent, false)
             )
         }
+        if (viewType == VIEW_TYPE_VERTICAL) {
+            return ViewHolderVertical(
+                ProductListViewBinding.inflate(layoutInflater, parent, false)
+            )
+        }
         return ViewHolderGrid(
             ProductListViewBinding.inflate(layoutInflater, parent, false)
         )
+    }
+
+    private inner class ViewHolderTopHor(private var applicationBinding: MainCategoryListViewBinding) :
+        RecyclerView.ViewHolder(applicationBinding.root) {
+
+        fun bind(feed: Data) {
+            if (feed.label.isEmpty()) {
+                applicationBinding.text.visibility = View.GONE
+            } else {
+                applicationBinding.text.text = feed.label
+            }
+            val adapter =
+                TopMainCategoriesAdapter(
+                    requireActivity,
+                    feed.viewList
+                )
+            val categoryLinearLayoutManager = LinearLayoutManager(requireActivity)
+            categoryLinearLayoutManager.orientation = LinearLayoutManager.HORIZONTAL
+            applicationBinding.recyclerView.layoutManager = categoryLinearLayoutManager
+            applicationBinding.recyclerView.adapter = adapter
+            applicationBinding.recyclerView.setHasFixedSize(true)
+
+            applicationBinding.viewAll.setOnClickListener {
+                requireActivity.toast("Future Development")
+            }
+        }
     }
 
     private inner class ViewHolderHor(private var applicationBinding: MainCategoryListViewBinding) :
@@ -116,7 +165,7 @@ class HomeListAdapter(
             } else {
                 applicationBinding.text.text = feed.label
             }
-            val homeListAdapter =
+            val adapter =
                 MainCategoriesAdapter(
                     requireActivity,
                     feed.viewList
@@ -124,10 +173,10 @@ class HomeListAdapter(
             val categoryLinearLayoutManager = LinearLayoutManager(requireActivity)
             categoryLinearLayoutManager.orientation = LinearLayoutManager.HORIZONTAL
             applicationBinding.recyclerView.layoutManager = categoryLinearLayoutManager
-            applicationBinding.recyclerView.adapter = homeListAdapter
+            applicationBinding.recyclerView.adapter = adapter
             applicationBinding.recyclerView.setHasFixedSize(true)
 
-            applicationBinding.viewAll.setOnClickListener{
+            applicationBinding.viewAll.setOnClickListener {
                 requireActivity.toast("Future Development")
             }
         }
@@ -168,7 +217,7 @@ class HomeListAdapter(
                 }
             }, DELAY_MS, PERIOD_MS)
 
-            applicationBinding.viewAll.setOnClickListener{
+            applicationBinding.viewAll.setOnClickListener {
                 requireActivity.toast("Future Development")
             }
         }
@@ -183,17 +232,41 @@ class HomeListAdapter(
             } else {
                 applicationBinding.text.text = feed.label
             }
-            val homeListAdapter = ProductListAdapter(
+            val adapter = GridListAdapter(
                 requireActivity,
                 feed.viewList
             )
-            val categoryLinearLayoutManager = GridLayoutManager(requireActivity, 3)
+            val categoryLinearLayoutManager = GridLayoutManager(requireActivity, 2)
             categoryLinearLayoutManager.orientation = GridLayoutManager.VERTICAL
             applicationBinding.recyclerView.layoutManager = categoryLinearLayoutManager
-            applicationBinding.recyclerView.adapter = homeListAdapter
+            applicationBinding.recyclerView.adapter = adapter
             applicationBinding.recyclerView.setHasFixedSize(true)
 
-            applicationBinding.viewAll.setOnClickListener{
+            applicationBinding.viewAll.setOnClickListener {
+                requireActivity.toast("Future Development")
+            }
+        }
+    }
+    private inner class ViewHolderVertical(private var applicationBinding: ProductListViewBinding) :
+        RecyclerView.ViewHolder(applicationBinding.root) {
+
+        fun bind(feed: Data) {
+            if (feed.label.isEmpty()) {
+                applicationBinding.text.visibility = View.GONE
+            } else {
+                applicationBinding.text.text = feed.label
+            }
+            val adapter = VerticalListAdapter(
+                requireActivity,
+                feed.viewList
+            )
+            val categoryLinearLayoutManager = GridLayoutManager(requireActivity, 1)
+            categoryLinearLayoutManager.orientation = GridLayoutManager.VERTICAL
+            applicationBinding.recyclerView.layoutManager = categoryLinearLayoutManager
+            applicationBinding.recyclerView.adapter = adapter
+            applicationBinding.recyclerView.setHasFixedSize(true)
+
+            applicationBinding.viewAll.setOnClickListener {
                 requireActivity.toast("Future Development")
             }
         }

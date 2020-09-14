@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.android.tlb.home.data.model.ViewList" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_230"
+        android:layout_marginStart="@dimen/margin_4"
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_marginEnd="@dimen/margin_4"
+        android:layout_marginBottom="@dimen/margin_4"
+        app:cardBackgroundColor="#efefef"
+        app:cardCornerRadius="@dimen/margin_6"
+        app:cardElevation="0dp">
+
+
+
+        <com.android.tlb.widget.RoundedView
+            android:id="@+id/imageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:bottomLeftCornerRadius="@dimen/margin_6"
+            app:bottomRightCornerRadius="@dimen/margin_6"
+            app:topLeftCornerRadius="@dimen/margin_6"
+            app:topRightCornerRadius="@dimen/margin_6">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:img="@{viewModel.imgUrl}"
+                android:scaleType="fitXY"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{viewModel.catName}"
+                    android:textColor="@android:color/white"
+                    android:shadowColor="@color/darkGrey"
+                    android:shadowDx="1"
+                    android:shadowRadius="2"
+                    android:shadowDy="1"
+                    tools:text="TITLE"
+                    android:padding="@dimen/margin_6"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.android.tlb.widget.RoundedView>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

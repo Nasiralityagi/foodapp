@@ -4,17 +4,16 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.android.tlb.R
 import com.android.tlb.databinding.FragmentProfileBinding
 import com.android.tlb.factory.ViewModelFactory
+import com.android.tlb.home.ui.account.AccountFragment
 
 
-class ProfileFragment : Fragment() {
+class ProfileFragment: Fragment() {
 
     private lateinit var viewModel: ProfileViewModel
     private lateinit var binding: FragmentProfileBinding
@@ -31,6 +30,16 @@ class ProfileFragment : Fragment() {
             ProfileViewModel::class.java
         )
         return binding.root
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        binding.myaccount.setOnClickListener {
+            val transaction = requireActivity().supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.container, AccountFragment.newInstance())
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
     }
 
 }

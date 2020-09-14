@@ -10,7 +10,6 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 
@@ -25,45 +24,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".intro.SplashActivity"
-            android:theme="@style/NoActionBar"
+        <activity android:name=".subscription.SubscriptionActivity"></activity>
+        <activity
+            android:name=".intro.SplashActivity"
             android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".intro.IntroActivity"
-            android:theme="@style/NoActionBar"
+        <activity
+            android:name=".intro.IntroActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden"/>
-
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name=".auth.ui.LoginActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|adjustPan"
-            android:theme="@style/NoActionBar">
-        </activity>
-
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="adjustResize|adjustPan"></activity>
         <activity
             android:name=".auth.ui.SignUpActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|adjustPan"
-            android:theme="@style/NoActionBar">
-        </activity>
-
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="adjustResize|adjustPan"></activity>
         <activity
             android:name=".home.HomeActivity"
             android:label="@string/title_activity_home"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar"
-            android:windowSoftInputMode="stateAlwaysHidden"/>
+            android:windowSoftInputMode="stateAlwaysHidden" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"

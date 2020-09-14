@@ -10,7 +10,7 @@
     </data>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/margin_150"
+        android:layout_width="@dimen/margin_230"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_4"
         android:layout_marginTop="@dimen/margin_4"
@@ -38,7 +38,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:minHeight="@dimen/margin_175"
+                    android:minHeight="@dimen/margin_200"
                     android:scaleType="fitXY"
                     android:img="@{viewModel.imgUrl}" />
 

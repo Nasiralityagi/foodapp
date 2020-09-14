@@ -14,7 +14,7 @@ import com.android.tlb.databinding.ProductListViewBinding
 import com.android.tlb.databinding.TrendingPagerListViewBinding
 import com.android.tlb.home.data.FragmentHomeCommand
 import com.android.tlb.home.data.MainCategoriesAdapter
-import com.android.tlb.home.data.ProductListAdapter
+import com.android.tlb.home.data.GridListAdapter
 import com.android.tlb.home.data.TrendingListPagerAdapter
 import com.android.tlb.home.data.model.Data
 import com.android.tlb.utils.toast
@@ -163,8 +163,8 @@ class CollectionsListAdapter(
             } else {
                 applicationBinding.text.text = feed.label
             }
-            val homeListAdapter = ProductListAdapter(requireActivity, feed.viewList)
-            val categoryLinearLayoutManager = GridLayoutManager(requireActivity, 3)
+            val homeListAdapter = GridListAdapter(requireActivity, feed.viewList)
+            val categoryLinearLayoutManager = GridLayoutManager(requireActivity, 2)
             categoryLinearLayoutManager.orientation = GridLayoutManager.VERTICAL
             applicationBinding.recyclerView.layoutManager = categoryLinearLayoutManager
             applicationBinding.recyclerView.adapter = homeListAdapter

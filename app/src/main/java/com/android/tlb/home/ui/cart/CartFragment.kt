@@ -67,7 +67,7 @@ class CartFragment: Fragment(), FragmentHomeCommand {
             refresh()
         }
 
-        setRecyclerViewHome(getHomeListData()[1].viewList)
+        setRecyclerViewHome(getHomeListData()[0].viewList)
     }
 
     override fun showToast(message: String) {
@@ -88,7 +88,7 @@ class CartFragment: Fragment(), FragmentHomeCommand {
 
     private fun refresh() {
         swipeRefresh.isRefreshing = true
-        setRecyclerViewHome(getHomeListData()[1].viewList)
+        setRecyclerViewHome(getHomeListData()[0].viewList)
     }
 
     private fun getHomeListData(): List<Data> {

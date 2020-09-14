@@ -50,7 +50,10 @@ class IntroActivity : AppCompatActivity() {
         layouts = intArrayOf(
             R.layout.intro_screen1,
             R.layout.intro_screen2,
-            R.layout.intro_screen3)
+            R.layout.intro_screen3,
+            R.layout.intro_screen4,
+            R.layout.intro_screen5
+        )
         // adding bottom dots
         addBottomDots(0)
         // making notification bar transparent
@@ -83,7 +86,7 @@ class IntroActivity : AppCompatActivity() {
             dots!![i]!!.setTextColor(colorsInactive[currentPage])
             dotsLayout!!.addView(dots!![i])
         }
-        if (dots!!.size > 0) dots!![currentPage]!!.setTextColor(colorsActive[currentPage])
+        if (dots!!.isNotEmpty()) dots!![currentPage]!!.setTextColor(colorsActive[currentPage])
     }
 
     private fun getItem(i: Int): Int {
@@ -121,7 +124,7 @@ class IntroActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             val window: Window = window
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
-            window.setStatusBarColor(Color.TRANSPARENT)
+            window.statusBarColor = Color.TRANSPARENT
         }
     }
 

@@ -1,0 +1,39 @@
+{
+  "status": 1,
+  "message": "Success",
+  "data": [{
+    "viewType": "horizontal",
+    "label": "FAST FOOD ITEMS",
+    "viewList": [{
+      "imgUrl": "https://economictimes.indiatimes.com/thumb/msid-72863458,width-820,height-900,resizemode-4,imgsize-731189/burger-thnkstck.jpg",
+      "catName": "BURGER"
+    }, {
+      "imgUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5646437.jpg&q=85",
+      "catName": "SUSHI"
+    }, {
+      "imgUrl": "https://static.toiimg.com/photo/53110049.cms",
+      "catName": "PIZZA"
+    }, {
+      "imgUrl": "https://preppykitchen.com/wp-content/uploads/2019/06/Chocolate-cake-recipe-1200a.jpg",
+      "catName": "CAKE"
+    }, {
+      "imgUrl": "https://content3.jdmagicbox.com/comp/trichy/v1/0431px431.x431.110404135833.k7v1/catalogue/arun-ice-cream-tiruchirappalli-ho-trichy-ice-cream-parlours-z0v77.jpg",
+      "catName": "ICE CREAM"
+    }, {
+      "imgUrl": "https://www.channelnewsasia.com/image/11870696/1x1/600/600/a6916e6e0f41c6f2c44666ef318b897b/Gx/photo-carbonated-drinks.jpg",
+      "catName": "SOFT DRINKS"
+    }, {
+      "imgUrl": "https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Spinach-Tomato-Pasta-bowl-500x500.jpg",
+      "catName": "PASTA"
+    }, {
+      "imgUrl": "https://rasamalaysia.com/wp-content/uploads/2019/01/chow-mein-thumb.jpg",
+      "catName": "CHOW-MEIN"
+    }, {
+      "imgUrl": "https://ministryofcurry.com/wp-content/uploads/2019/10/paneer-kathi-rolls-1-1-850x1133.jpg",
+      "catName": "KATHI ROLLS"
+    }, {
+      "imgUrl": "https://i0.wp.com/vegecravings.com/wp-content/uploads/2017/03/samosa-recipe-step-by-step-instructions.jpg?fit=1801%2C1717&quality=65&strip=all&ssl=1",
+      "catName": "SAMOSA"
+    }]
+  }]
+}

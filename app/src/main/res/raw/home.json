@@ -1,0 +1,193 @@
+{
+  "status": 1,
+  "message": "Success",
+  "data": [{
+    "viewType": "horizontal",
+    "label": "FAST FOOD ITEMS",
+    "viewList": [{
+      "imgUrl": "https://economictimes.indiatimes.com/thumb/msid-72863458,width-820,height-900,resizemode-4,imgsize-731189/burger-thnkstck.jpg",
+      "catName": "BURGER"
+    }, {
+      "imgUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5646437.jpg&q=85",
+      "catName": "SUSHI"
+    }, {
+      "imgUrl": "https://static.toiimg.com/photo/53110049.cms",
+      "catName": "PIZZA"
+    }, {
+      "imgUrl": "https://preppykitchen.com/wp-content/uploads/2019/06/Chocolate-cake-recipe-1200a.jpg",
+      "catName": "CAKE"
+    }, {
+      "imgUrl": "https://content3.jdmagicbox.com/comp/trichy/v1/0431px431.x431.110404135833.k7v1/catalogue/arun-ice-cream-tiruchirappalli-ho-trichy-ice-cream-parlours-z0v77.jpg",
+      "catName": "ICE CREAM"
+    }, {
+      "imgUrl": "https://www.channelnewsasia.com/image/11870696/1x1/600/600/a6916e6e0f41c6f2c44666ef318b897b/Gx/photo-carbonated-drinks.jpg",
+      "catName": "SOFT DRINKS"
+    }, {
+      "imgUrl": "https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Spinach-Tomato-Pasta-bowl-500x500.jpg",
+      "catName": "PASTA"
+    }, {
+      "imgUrl": "https://rasamalaysia.com/wp-content/uploads/2019/01/chow-mein-thumb.jpg",
+      "catName": "CHOW-MEIN"
+    }, {
+      "imgUrl": "https://ministryofcurry.com/wp-content/uploads/2019/10/paneer-kathi-rolls-1-1-850x1133.jpg",
+      "catName": "KATHI ROLLS"
+    }, {
+      "imgUrl": "https://i0.wp.com/vegecravings.com/wp-content/uploads/2017/03/samosa-recipe-step-by-step-instructions.jpg?fit=1801%2C1717&quality=65&strip=all&ssl=1",
+      "catName": "SAMOSA"
+    }]
+  }, {
+    "viewType": "pager ",
+    "label": "SPECIAL OFFERS",
+    "viewList": [{
+      "imgUrl": "https://cdn.grabon.in/gograbon/images/category/1546252575451.png"
+    }, {
+      "imgUrl": "https://cdn.grabon.in/gograbon/images/web-images/uploads/1591771548178/food-coupons.jpg"
+    }, {
+      "imgUrl": "https://gopaisa.com/blog/wp-content/uploads/2016/10/Screenshot_5.jpg"
+    }, {
+      "imgUrl": "https://www.madrascurrycup.com/images/grab-now/Offer-ad.jpg"
+    }, {
+      "imgUrl": "https://www.shopickr.com/wp-content/uploads/2017/08/foodpanda-freedom-sale-independence-day-offers-2017.jpg"
+    }, {
+      "imgUrl": "https://possector.com/wordpress/wp-content/uploads/2013/09/restaurant-menu-special0.jpg"
+    }, {
+      "imgUrl": "https://www.dineout.co.in/blog/wp-content/uploads/2018/10/WhatsApp-Image-2018-10-18-at-8.06.23-PM.jpeg"
+    }, {
+      "imgUrl": "https://d168jcr2cillca.cloudfront.net/uploadimages/coupons/11251-Zomato_Online_Food_Ordering_Coupons_1.jpg"
+    }, {
+      "imgUrl": "https://i.pinimg.com/736x/86/1c/61/861c61a80c0f0be60cb889df3ea1d235.jpg"
+    }]
+  }, {
+    "viewType": "vertical",
+    "label": "BEST IN BIRYANI",
+    "viewList": [{
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1577452385_EggHyderabadiBiryani.jpg",
+      "catName": "EGG DUM BIRYANI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1591868125_boneslesschicken.jpg",
+      "catName": "CHICKEN BONELESS BIRYANI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1591868158_Malamaalmurg.jpg",
+      "catName": "MURG DUM BIRYANI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1591868478_Chickenlucknow.jpg",
+      "catName": "CHICKEN LUCKNOWI BIRYANI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1591868056_paneerbiryani.jpg",
+      "catName": "PANEER DUM BIRYANI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566214821_muttonluchnowibiryani.jpg",
+      "catName": "MUTTON LUCKNOWI BIRYANI"
+    }]
+  },{
+    "viewType": "horizontal",
+    "label": "COMBOS",
+    "viewList": [{
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566209955_celebrationpack.jpg",
+      "catName": "VEG PARTY PACK 8-10 PERSON"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566209942_celebrationpack.jpg",
+      "catName": "CHICKEN PARTY PACK 8-10 PERSON"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566210170_chickencomboimgbbk.jpg",
+      "catName": "MUTTON PARTY PACK 8-10 PERSON"
+    },{
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566210105_vegcombo.jpg",
+      "catName": "VEG PARTY PACK 4-5 PERSON"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566210152_chickencomboimgbbk.jpg",
+      "catName": "CHICKEN PARTY PACK 4-5 PERSON"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566210170_chickencomboimgbbk.jpg",
+      "catName": "MUTTON PARTY PACK 4-5 PERSON"
+    }]
+  },{
+    "viewType": "grid",
+    "label": "EXTRAS",
+    "viewList": [{
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566193791_Rumaliroti.jpg",
+      "catName": "RUMALI ROTI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566193886_UltaTawaParantha.jpg",
+      "catName": "TAWA PARANTHA"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1591868249_matkaphirni.jpg",
+      "catName": "MATKA PHIRNI"
+    },{
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1582778899_Gulabjamuncopy.jpg",
+      "catName": "GULAB ZAMUN RABRI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1589780095_chocomolten.jpg",
+      "catName": "MOLTON CHOCO BRUST"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566192787_ImliAdrakLemonade.jpg",
+      "catName": "LEMONADE"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566193752_Raita.jpg",
+      "catName": "RAITA"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566193851_Salan.jpg",
+      "catName": "SALAN"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1566211373_BuraniRaita.jpg",
+      "catName": "BIRYANI RAITA"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1596260345_shikanji.jpg",
+      "catName": "MASALA SHIKANJI"
+    }, {
+      "imgUrl": "https://assets.limetray.com/assets/user_images/menus/compressed/1596258327_Rawcoconut.jpg",
+      "catName": "COCONUT WATER"
+    }]
+  }, {
+    "viewType": "grid",
+    "label": "POPULAR FOODS",
+    "viewList": [{
+      "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/popular_foods/ic_popular_food_1.png?raw=true"
+    }, {
+      "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/popular_foods/ic_popular_food_2.png?raw=true"
+    }, {
+      "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/popular_foods/ic_popular_food_3.png?raw=true"
+    }, {
+      "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/popular_foods/ic_popular_food_4.png?raw=true"
+    }, {
+      "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/popular_foods/ic_popular_food_5.png?raw=true"
+    }, {
+      "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/popular_foods/ic_popular_food_6.png?raw=true"
+    }]
+  }, {
+    "viewType": "vertical",
+    "label": "BEST OF TLB",
+    "viewList": [{
+      "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_1.jpeg?raw=true"
+    },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_2.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_3.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_4.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_5.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_6.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_7.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_8.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_9.jpeg?raw=true"
+      },
+      {
+        "imgUrl": "https://github.com/Tarikul711/flutter-food-delivery-app-ui/blob/master/assets/images/bestfood/ic_best_food_10.jpeg?raw=true"
+      }
+    ]
+
+  }]
+}

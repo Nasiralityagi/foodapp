@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">App Name</string>
+    <string name="app_name">TLB</string>
     <string name="facebook_app_id">1017139844989490</string>
     <string name="fb_login_protocol_scheme">fb1017139844989490</string>
     <string name="string_sign_in_with">New User?</string>

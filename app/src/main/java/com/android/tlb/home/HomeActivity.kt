@@ -100,7 +100,7 @@ class HomeActivity : AppCompatActivity() {
                     textCartItemCount.visibility = View.GONE
                 }
             } else {
-                textCartItemCount.text = Math.min(mCartItemCount, 99).toString()
+                textCartItemCount.text = mCartItemCount.coerceAtMost(99).toString()
                 if (textCartItemCount.visibility != View.VISIBLE) {
                     textCartItemCount.visibility = View.VISIBLE
                 }

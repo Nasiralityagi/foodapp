@@ -4,10 +4,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.android.tlb.databinding.ProductListItemBinding
+import com.android.tlb.databinding.VerticalListItemBinding
 import com.android.tlb.home.data.model.ViewList
 
-class ProductListAdapter(
+class VerticalListAdapter(
     private val requireActivity: FragmentActivity,
     private val itemList: List<ViewList>
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -24,11 +24,11 @@ class ProductListAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         return ListViewHolder(
-            ProductListItemBinding.inflate(layoutInflater, parent, false)
+            VerticalListItemBinding.inflate(layoutInflater, parent, false)
         )
     }
 
-    private inner class ListViewHolder(private var applicationBinding: ProductListItemBinding) :
+    private inner class ListViewHolder(private var applicationBinding: VerticalListItemBinding) :
         RecyclerView.ViewHolder(applicationBinding.root) {
 
         fun bind(feed: ViewList) {
